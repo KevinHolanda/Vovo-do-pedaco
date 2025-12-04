@@ -145,6 +145,7 @@ header img{
 
 #cabeca {
     background-color: var(--bordo);
+
 }
 
 .espaco_lateral {
@@ -161,7 +162,7 @@ header {
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    
+
 }
 
 header img {
@@ -170,10 +171,10 @@ header img {
 
 .menu {
     max-width: 700px;
-    width: 60%;
+    width: 55%;
     display: flex;
     justify-content: space-between;
-   
+    margin-right: 100px;
 }
 
 .menu a {
@@ -187,6 +188,8 @@ header img {
 .menu a:hover {
     color: var(--branco);
 }
+
+
 
 /* -------- Menu Hamburguer ------- */
 #icone-barras,
@@ -251,7 +254,7 @@ header img {
 
         position: fixed;
         top: 165px;
-        right: -210px;
+        right: -400px;
         z-index: 1;
         transition: .5s;
     }
@@ -260,3 +263,96 @@ header img {
         color: var(--dourado);
     }
 }
+
+.Banner {
+    height: 60vh;
+    background-image: url(./img/BANNER\ branco.png);
+    background-repeat: no-repeat;
+    background-position: 0 -20px;
+    background-size: 100%;
+
+}
+
+.destaque {
+    font-family: "Inter", "Semi-Bold";
+    text-align: center;
+    font-size: 20px;
+    /* text-decoration: underline; */
+    margin-bottom: 100px;
+    /* align-items: center; */
+    justify-content: center;
+    /* margin-top: 80px; */
+    height: 60px;
+    color: var(--bordo);
+    
+
+}
+
+.destaques1 {
+    
+    height: 310px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 80px 80px;
+    max-height: 40px;
+}
+
+.destaques1 img{
+    border: 8px solid var(--dourado);
+    border-radius: 40px;
+    width: 420px;
+}
+
+#sobre {
+padding-top: 1000px;
+/* flex-wrap: wrap;
+display: flex;
+justify-content: space-around; */
+ /* display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px; */
+    
+}
+
+/* Título centralizado */
+.sobre-nos h2 {
+
+    font-family: "Inter", "Semi-Bold";
+    text-align: center;
+    font-size: 38px;
+    color: var(--bordo);        
+    margin: -70px 0 80px;
+    font-weight: 700;
+    line-height: 200px;
+    
+    
+}
+
+
+/* Conteúdo lado a lado */
+.conteudo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+
+/* Estilo da imagem */
+.imagem img {
+    width: 450px;
+    height: auto;
+    border-radius: 30px; 
+}
+
+/* Texto */
+.texto {
+    max-width: 480px;
+    font-size: 22px;
+    line-height: 1.5;
+    text-align: center;
+    
+}
+
+
