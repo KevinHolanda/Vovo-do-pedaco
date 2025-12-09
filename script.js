@@ -38,34 +38,38 @@ let sombra = document.getElementById("sombra")
 
 function abreFechaMenu(){
     //Se o menu está fechado
-    if(window.getComputedStyle(menu).right == "-400px"){
+    if(window.getComputedStyle(menu).right == "500px"){
         //Abrir o menu
         menu.style.right = "0"
 
         //Mostrar icone X
-        iconeX.style.display = "inline"
+        iconeX.style.display = "none"
 
         //Esconde icone barras
-        iconeBarras.style.display = "none"
+        iconeBarras.style.display = "inline"
 
-        sombra.style.right = "0"
+        sombra.style.display = "none"
+        menu.style.display = "none"
 
     }else{
         //Fechar o menu
-        menu.style.right = "-400px"
+        menu.style.right = "500px"
 
         //Esconder icone X
-        iconeX.style.display = "none"
+        iconeX.style.display = "inline"
 
         //Mostrar o icone barras
-        iconeBarras.style.display = "inline"
+        iconeBarras.style.display = "none"
 
-        sombra.style.right = "-101vw"
+        sombra.style.display = "block"
+        menu.style.display = "block"
+
+        sombra.style.right = "78vw"
     }   
 }
 
 onresize = () =>{
-    if(window.getComputedStyle(menu).right == "-400px"){
+    if(window.getComputedStyle(menu).right == "-210px"){
         //Mostra icone X
         iconeX.style.display = "none"
     }else{
