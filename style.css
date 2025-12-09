@@ -262,6 +262,9 @@ header img {
     .menu a {
         color: var(--dourado);
     }
+
+
+   
 }
 
 .Banner {
@@ -509,7 +512,7 @@ justify-content: space-around; */
 
  /* Contato ---------------*/
 #contato {
-    margin-bottom: 150px;
+    margin-bottom: 190px;
     height: 700px;
     background-color: var(--bordo);
 }
@@ -518,7 +521,7 @@ justify-content: space-around; */
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 50px;
+    gap: 70px;
     /* flex-wrap: wrap; */
 }
 
@@ -527,13 +530,13 @@ justify-content: space-around; */
     flex: 1;
     max-width: 500px;
 
-    color: var(--preto);
-    font-family: "Inter", sans-serif;
+    color: var(--dourado);
+    font-family: "Inter", light;
     font-size: 17px;
 }
 
 .campo {
-    width: 100%;
+    
 
     text-align: left;
 
@@ -557,13 +560,14 @@ justify-content: space-around; */
 }
 
 .campo input {
-    height: 40px;
+    width: 400px;
+    height: 60px;
 
     color: var(--preto);
     background-color: var(--branco);
 
     border: none;
-    border-radius: 10px;
+    border-radius: 20px;
 
     text-indent: 10px;
 
@@ -586,7 +590,11 @@ justify-content: space-around; */
 
 .campo label,
 .campo_descricao label {
-    margin-bottom: 15px;
+    margin-bottom: 13px;
+    font-size: 25px;
+
+    display: flex;
+    justify-content: center ;
 }
 
 .campo input,
@@ -597,7 +605,7 @@ justify-content: space-around; */
 
 .campo input::placeholder,
 .campo_descricao textarea::placeholder {
-    color: #a0a0a0;
+    color: var(--dourado);
 }
 
 .campo input:focus,
@@ -607,7 +615,9 @@ justify-content: space-around; */
 
 .conteudo_contato form button {
     height: 40px;
-    width: 100%;
+    width: 80%;
+    margin-left: 27px;
+    border-radius: 80px;
 
     background-color: var(--dourado);
     color: white;
@@ -616,7 +626,7 @@ justify-content: space-around; */
     border-radius: 4px;
 
     font-size: 17px;
-    font-family: "Inter", sans-serif;
+    font-family: "Inter", "Semi-Bold";
     font-weight: 700;
     /* Bold */
 
@@ -631,7 +641,14 @@ justify-content: space-around; */
     background-color: var(--dourado);
 }
 
+#contato .espaco_lateral{
+    display: flex;
+   justify-content: space-between;
+}
 
+#contato img{
+    padding-top: 60px;
+}
 
 
 

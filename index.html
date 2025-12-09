@@ -22,9 +22,9 @@
                 <img src="./img/Logo svg menu 3.svg" alt="Logo da Vovó do Pedaço">
 
                 <nav id="menu" class="menu">
-                    <a href="#conheça-nossa-marca">Marca</a>
-                    <a href="sobre-nos">Sobre</a>
-                    <a href="contato">Contato</a>
+                    <a href="#marca">Marca</a>
+                    <a href="#sobre-nos">Sobre</a>
+                    <a href="#contato">Contato</a>
                 </nav>
 
                 <button id="menu_botao" onclick="abreFechaMenu()">
@@ -86,45 +86,29 @@
         </section>
 
         <section id="sobre" class="espaco_lateral">
-            <!-- <div class="sobre-nos">
-                <h3>SOBRE NÓS</h3>
-                </div>
-            <div class="img-sobre">
-                <img src="./img/IMG SOBRE.png" alt="SOBRE">
-            </div>
-            <div class="sobre-texto">
-                <p> A história da Dona Teresa começou na cozinha,
-                    com bolos e doces que despertam memórias afetivas.
-                    O sucesso online levou seus netos a investirem na marca,
-                    que hoje busca uma identidade visual encantadora, uma escola de
-                    confeitaria e presença digital marcante. Tudo isso no
-                    coração de São Caetano do Sul.</p>
-            </div>-->
-
-
 
         </section>
 
-        <section class="sobre-nos">
+        <section id="sobre-nos">
+            <div class="sobre-nos">
+                <h2>SOBRE NÓS</h2>
+                <div class="linha"></div>
 
-            <h2>SOBRE NÓS</h2>
-            <div class="linha"></div>
+                <div class="conteudo">
 
-            <div class="conteudo">
+                    <div class="imagem">
+                        <img src="./img/IMG SOBRE.png" alt="Imagem sobre nós">
+                    </div>
 
-                <div class="imagem">
-                    <img src="./img/IMG SOBRE.png" alt="Imagem sobre nós">
+                    <div class="texto">
+                        A história da Dona Teresa começou na cozinha, com bolos e doces que despertam memórias afetivas.
+                        O sucesso online levou seus netos a investirem na marca, que hoje busca uma identidade visual
+                        encantadora, uma escola de confeitaria e presença digital marcante. Tudo isso no coração de
+                        São Caetano do Sul.
+                    </div>
+
                 </div>
-
-                <div class="texto">
-                    A história da Dona Teresa começou na cozinha, com bolos e doces que despertam memórias afetivas.
-                    O sucesso online levou seus netos a investirem na marca, que hoje busca uma identidade visual
-                    encantadora, uma escola de confeitaria e presença digital marcante. Tudo isso no coração de
-                    São Caetano do Sul.
-                </div>
-
             </div>
-
         </section>
 
         <section id="marca" class="espaco_lateral">
@@ -158,7 +142,7 @@
         </section>
 
 
-        <section  class="espaco_lateral">
+        <section class="espaco_lateral">
             <div class="mapa">
                 <img src="./img/MAPA.png" alt="">
             </div>
@@ -169,44 +153,45 @@
 
         <section class="espaco_lateral">
             <div class="mapa-desc">
-                <span>ESTAMOS EM:</span> <h2>Rua Níteroi, 180 - Centro de SCS</h2>
+                <span>ESTAMOS EM:</span>
+                <h2>Rua Níteroi, 180 - Centro de SCS</h2>
             </div>
 
         </section>
-       
 
-     <section id="contato">
-        <div class="espaco_lateral">
 
-       
-            <h2 class="titulo">
-                Entre em Contato
-            </h2>
+        <section id="contato">
+            <div class="espaco_lateral">
 
-            <div class="conteudo_contato">
-                <form onsubmit="entrarEmContato(event)">
-                    <div class="campo">
-                        <label for="campo_nome">Qual é o seu nome?</label>
-                        <input id="campo-nome" placeholder="Digite o seu nome..." type="text">
-                    </div>
 
-                    <div class="campo">
-                        <label for="campo_email">Envie seu E-mail</label>
-                        <input id="campo_email" placeholder="Digite o seu email..." type="email">
-                    </div>
 
-                    <div class="campo_descricao">
-                        <label for="campo_texto">Fale suas dúvidas</label>
-                        <textarea id="campo_texto" placeholder="Informe sua dúvida" cols="30" rows="5"></textarea>
-                    </div>
-                    <button type="submit">Enviar</button>
-                </form>
 
-               
+                <div class="conteudo_contato">
+                    <form onsubmit="entrarEmContato(event)">
+                        <div class="campo">
+                            <label for="campo_nome">Qual é o seu nome?</label>
+                            <input id="campo-nome" placeholder="Digite o seu nome..." type="text">
+                        </div>
+
+                        <div class="campo">
+                            <label for="campo_email">Envie seu E-mail</label>
+                            <input id="campo_email" placeholder="Digite o seu email..." type="email">
+                        </div>
+
+                        <div class="campo_descricao">
+                            <label for="campo_texto">Fale suas dúvidas</label>
+                            <textarea id="campo_texto" placeholder="Informe sua dúvida" cols="30" rows="5"></textarea>
+                        </div>
+                        <button type="submit">Enviar</button>
+                    </form>
+
+
+
+                </div>
+
+                <img src="./img/IMG CONT.png" alt="">
 
             </div>
-             
-             </div>
 
         </section>
 
